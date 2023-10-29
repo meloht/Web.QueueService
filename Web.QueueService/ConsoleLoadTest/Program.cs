@@ -69,7 +69,7 @@ namespace ConsoleLoadTest
             paras.Add("name", DateTime.Now.ToString());
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
-            string url = "https://bpmflowmasterapidev.azurewebsites.net/api/GetDataLazy";
+            string url = "https://apidev.azurewebsites.net/api/GetDataLazy";
             Console.WriteLine($"begin  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss ffff")}");
             string json = await GetHttpPostAsync(url, paras);
 
@@ -88,7 +88,7 @@ namespace ConsoleLoadTest
             paras.Add("name", DateTime.Now.ToString());
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
-            string url = "https://bpmflowmasterapidev.azurewebsites.net/api/GetData";
+            string url = "https://apidev.azurewebsites.net/api/GetData";
             Console.WriteLine($"begin  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss ffff")}");
             string json = GetHttpPostAsync(url, paras).GetAwaiter().GetResult();
 
