@@ -1,17 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Worker">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-Web.QueueWorkerService-845a44ff-f1b9-40d7-97d4-e991b7f1ea17</UserSecretsId>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.NLogTarget" Version="2.21.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="7.0.5" />
     <PackageReference Include="NLog" Version="5.2.5" />
   </ItemGroup>
@@ -19,4 +18,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Web.QueueWorker.Core\Web.QueueWorker.Core.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="WorkerService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

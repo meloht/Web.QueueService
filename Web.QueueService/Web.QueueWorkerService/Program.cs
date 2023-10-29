@@ -1,10 +1,10 @@
-﻿namespace Web.QueueWorkerService
-{
-    internal class Program
+using Web.QueueWorkerService;
+
+IHost host = Host.CreateDefaultBuilder(args)
+    .ConfigureServices(services =>
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+        services.AddHostedService<Worker>();
+    })
+    .Build();
+
+host.Run();

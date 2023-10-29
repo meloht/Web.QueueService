@@ -1,4 +1,4 @@
-namespace Web.QueueService
+namespace Web.QueueService.API
 {
     public class WeatherForecast
     {

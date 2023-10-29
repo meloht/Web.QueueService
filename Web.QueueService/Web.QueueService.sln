@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueService.Common", "Web.QueueService.Common\Web.QueueService.Common.csproj", "{57617853-A538-469A-B493-F3F0B6D627AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.QueueService.Common", "Web.QueueService.Common\Web.QueueService.Common.csproj", "{57617853-A538-469A-B493-F3F0B6D627AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueWorker", "Web.QueueWorker\Web.QueueWorker.csproj", "{F8178D10-1792-4078-9D28-EF7F37844181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.QueueWorker", "Web.QueueWorker\Web.QueueWorker.csproj", "{F8178D10-1792-4078-9D28-EF7F37844181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueWorker.Core", "Web.QueueWorker.Core\Web.QueueWorker.Core.csproj", "{AC78D40F-C669-4AF8-986C-CE2956E66FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.QueueWorker.Core", "Web.QueueWorker.Core\Web.QueueWorker.Core.csproj", "{AC78D40F-C669-4AF8-986C-CE2956E66FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueWorkerService", "Web.QueueWorkerService\Web.QueueWorkerService.csproj", "{DB5CD8D7-5BE7-40DD-B50B-ADD445F452DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.QueueService.Test", "Web.QueueService.Test\Web.QueueService.Test.csproj", "{E13B9AAD-FD97-45F4-8790-7D53C41A9D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueService.Test", "Web.QueueService.Test\Web.QueueService.Test.csproj", "{E13B9AAD-FD97-45F4-8790-7D53C41A9D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleLoadTest", "ConsoleLoadTest\ConsoleLoadTest.csproj", "{744AB132-296E-4A56-8EDB-C38665077F9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLoadTest", "ConsoleLoadTest\ConsoleLoadTest.csproj", "{744AB132-296E-4A56-8EDB-C38665077F9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueService.API", "Web.QueueService.API\Web.QueueService.API.csproj", "{BC422A07-57AF-4D85-92F0-26D50FF6C04D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueService.APITest", "Web.QueueService.APITest\Web.QueueService.APITest.csproj", "{0CBFEACE-0E00-4FC7-83A1-1D7C0657E0C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueService.BackendAPI", "Web.QueueService.BackendAPI\Web.QueueService.BackendAPI.csproj", "{E463E8B4-E248-4F69-9E70-04295FF83CFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueService", "Web.QueueService\Web.QueueService.csproj", "{000FCB96-8E8E-425F-900B-FC850A7CB6F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueWorkerService", "Web.QueueWorkerService\Web.QueueWorkerService.csproj", "{E3A2932D-148C-4F38-9B11-905C471B2EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.QueueWorkerWindowsService", "Web.QueueWorkerWindowsService\Web.QueueWorkerWindowsService.csproj", "{18EDA1E7-7DDD-4C1B-95AA-406F8E601A70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +39,6 @@ Global
 		{AC78D40F-C669-4AF8-986C-CE2956E66FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC78D40F-C669-4AF8-986C-CE2956E66FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC78D40F-C669-4AF8-986C-CE2956E66FA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB5CD8D7-5BE7-40DD-B50B-ADD445F452DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB5CD8D7-5BE7-40DD-B50B-ADD445F452DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB5CD8D7-5BE7-40DD-B50B-ADD445F452DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB5CD8D7-5BE7-40DD-B50B-ADD445F452DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E13B9AAD-FD97-45F4-8790-7D53C41A9D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E13B9AAD-FD97-45F4-8790-7D53C41A9D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E13B9AAD-FD97-45F4-8790-7D53C41A9D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,14 +47,22 @@ Global
 		{744AB132-296E-4A56-8EDB-C38665077F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{744AB132-296E-4A56-8EDB-C38665077F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{744AB132-296E-4A56-8EDB-C38665077F9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0CBFEACE-0E00-4FC7-83A1-1D7C0657E0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CBFEACE-0E00-4FC7-83A1-1D7C0657E0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CBFEACE-0E00-4FC7-83A1-1D7C0657E0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CBFEACE-0E00-4FC7-83A1-1D7C0657E0C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{000FCB96-8E8E-425F-900B-FC850A7CB6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{000FCB96-8E8E-425F-900B-FC850A7CB6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{000FCB96-8E8E-425F-900B-FC850A7CB6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{000FCB96-8E8E-425F-900B-FC850A7CB6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC422A07-57AF-4D85-92F0-26D50FF6C04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC422A07-57AF-4D85-92F0-26D50FF6C04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC422A07-57AF-4D85-92F0-26D50FF6C04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC422A07-57AF-4D85-92F0-26D50FF6C04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E463E8B4-E248-4F69-9E70-04295FF83CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E463E8B4-E248-4F69-9E70-04295FF83CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E463E8B4-E248-4F69-9E70-04295FF83CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E463E8B4-E248-4F69-9E70-04295FF83CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A2932D-148C-4F38-9B11-905C471B2EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A2932D-148C-4F38-9B11-905C471B2EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A2932D-148C-4F38-9B11-905C471B2EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A2932D-148C-4F38-9B11-905C471B2EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EDA1E7-7DDD-4C1B-95AA-406F8E601A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EDA1E7-7DDD-4C1B-95AA-406F8E601A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EDA1E7-7DDD-4C1B-95AA-406F8E601A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EDA1E7-7DDD-4C1B-95AA-406F8E601A70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

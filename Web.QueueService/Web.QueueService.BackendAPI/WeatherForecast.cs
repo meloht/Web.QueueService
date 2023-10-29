@@ -1,4 +1,4 @@
-namespace Web.QueueService.APITest
+namespace Web.QueueService.BackendAPI
 {
     public class WeatherForecast
     {
