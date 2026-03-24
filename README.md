@@ -27,4 +27,8 @@ Manage apis and verify authorizations
 4. The returned results are stored in Response Storage. The Storage method is determined based on the type of returned results: Json->CosmosDB, File->Blob Storage. At the same time, a Response Queue is sent to notify the completion of execution
 5. The Queue API receives the completion notification of the Response Queue, then obtains the result from the Response Storage and returns it to the front end
 
+# Project dependency diagram
+<img width="865" height="385" alt="image" src="https://github.com/user-attachments/assets/9506ea94-046c-48f3-a315-aba1622ce0bd" />
+
+
 
